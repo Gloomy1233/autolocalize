@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoLocalize 示例</string>
+    
+    <!-- Main screen strings -->
+    <string name="title_resource_localization">📚 资源本地化 (strings.xml)</string>
+    <string name="description_resource_localization">这些字符串来自 strings.xml，由 Android 资源系统自动本地化。选择不同的语言，可以看到它们的变化！</string>
+    <string name="greeting">您好！欢迎使用 AutoLocalize。</string>
+    <string name="message_change_language">使用上方的下拉菜单更改语言，可以立即看到这些字符串的更新。</string>
+    
+    <!-- Test strings with placeholders -->
+    <string name="test_placeholder_simple">您有 %d 条新消息</string>
+    <string name="test_placeholder_string">欢迎回来，%s！</string>
+    <string name="test_placeholder_positional">%1$s 订购了 %2$d 件商品，共 %3$s</string>
+    <string name="test_current_locale">当前语言：%s</string>
+    
+    <string name="title_runtime_translation">运行时翻译</string>
+    <string name="description_runtime_translation">这些字符串使用 ML Kit（设备端）或云 API 在运行时进行翻译。</string>
+    <string name="label_backend_text">后端文本:</string>
+    <string name="backend_sample_text">此文本模拟需要翻译的后端 API 内容。</string>
+    <string name="label_user_input">您的文本:</string>
+    <string name="hint_enter_text">输入要翻译的文本…</string>
+    <string name="button_translate">翻译</string>
+    <string name="label_translated_text">已翻译:</string>
+    
+    <string name="title_view_tree_translation">视图树翻译</string>
+    <string name="description_view_tree_translation">演示视图内容的选择性自动翻译。</string>
+    <string name="tagged_for_translation">此文本已使用 al_translate 标记为自动翻译。</string>
+    <string name="excluded_from_translation">此文本已使用 al_no_translate 排除在翻译之外。</string>
+    
+    <string name="title_model_status">翻译模型状态</string>
+    <string name="label_download_status">状态:</string>
+    <string name="status_ready">就绪</string>
+    <string name="status_downloading">正在下载模型…</string>
+    <string name="status_not_ready">模型未下载</string>
+    <string name="status_error">错误: %s</string>
+    <string name="button_download_models">下载模型</string>
+    
+    <!-- Language picker -->
+    <string name="hint_select_language">选择语言</string>
+</resources>
+

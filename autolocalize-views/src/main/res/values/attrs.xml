@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Attributes for AutoLocalizeLanguagePickerView -->
+    <declare-styleable name="AutoLocalizeLanguagePickerView">
+        <!-- Reference to a string-array of language tags (e.g., "en", "es", "fr") -->
+        <attr name="al_languages" format="reference" />
+        
+        <!-- Reference to a string-array of language labels (parallel to al_languages) -->
+        <attr name="al_languageLabels" format="reference" />
+        
+        <!-- Display mode for language picker -->
+        <attr name="al_displayMode" format="enum">
+            <enum name="nameOnly" value="0" />
+            <enum name="flagOnly" value="1" />
+            <enum name="flagAndName" value="2" />
+        </attr>
+        
+        <!-- Whether to show flag icons -->
+        <attr name="al_showFlag" format="boolean" />
+        
+        <!-- Text color for the selected language -->
+        <attr name="al_textColor" format="color" />
+        
+        <!-- Selected item background color -->
+        <attr name="al_selectedItemBackgroundColor" format="color" />
+        
+        <!-- Dropdown item text color -->
+        <attr name="al_dropdownItemTextColor" format="color" />
+        
+        <!-- Hint text shown when no language is selected -->
+        <attr name="al_hintText" format="string" />
+        
+        <!-- Hint text color -->
+        <attr name="al_hintColor" format="color" />
+        
+        <!-- Background color for the dropdown menu -->
+        <attr name="al_dropdownBackgroundColor" format="color" />
+        
+        <!-- Stroke/border color -->
+        <attr name="al_strokeColor" format="color" />
+        
+        <!-- Stroke width in dp -->
+        <attr name="al_strokeWidth" format="dimension" />
+        
+        <!-- Corner radius in dp -->
+        <attr name="al_cornerRadius" format="dimension" />
+        
+        <!-- Text size -->
+        <attr name="al_textSize" format="dimension" />
+        
+        <!-- Font family -->
+        <attr name="al_fontFamily" format="string|reference" />
+        
+        <!-- Tint for dropdown icon -->
+        <attr name="al_iconTint" format="color" />
+        
+        <!-- Elevation for popup menu -->
+        <attr name="al_popupElevation" format="dimension" />
+        
+        <!-- How to display language names -->
+        <attr name="al_showLabelMode" format="enum">
+            <enum name="displayName" value="0" />
+            <enum name="nativeName" value="1" />
+            <enum name="customLabel" value="2" />
+        </attr>
+    </declare-styleable>
+    
+</resources>
+

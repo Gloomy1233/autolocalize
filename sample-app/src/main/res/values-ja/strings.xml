@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoLocalizeサンプル</string>
+    
+    <!-- Main screen strings -->
+    <string name="title_resource_localization">📚 リソースのローカライズ (strings.xml)</string>
+    <string name="description_resource_localization">これらの文字列はstrings.xmlから取得され、Androidのリソースシステムによって自動的にローカライズされます。別の言語を選択すると、変更を確認できます！</string>
+    <string name="greeting">こんにちは！AutoLocalizeへようこそ。</string>
+    <string name="message_change_language">上のドロップダウンを使用して言語を変更すると、これらの文字列が即座に更新されるのを確認できます。</string>
+    
+    <!-- Test strings with placeholders -->
+    <string name="test_placeholder_simple">%d件の新着メッセージがあります</string>
+    <string name="test_placeholder_string">おかえりなさい、%sさん！</string>
+    <string name="test_placeholder_positional">%1$sが%2$d点の商品を%3$sで注文しました</string>
+    <string name="test_current_locale">現在の言語: %s</string>
+    
+    <string name="title_runtime_translation">ランタイム翻訳</string>
+    <string name="description_runtime_translation">これらの文字列は、ML Kit（デバイス上）またはクラウドAPIを使用して実行時に翻訳されます。</string>
+    <string name="label_backend_text">バックエンドテキスト:</string>
+    <string name="backend_sample_text">このテキストは、翻訳が必要なバックエンドAPIからのコンテンツをシミュレートしています。</string>
+    <string name="label_user_input">あなたのテキスト:</string>
+    <string name="hint_enter_text">翻訳するテキストを入力…</string>
+    <string name="button_translate">翻訳</string>
+    <string name="label_translated_text">翻訳済み:</string>
+    
+    <string name="title_view_tree_translation">ビューツリー翻訳</string>
+    <string name="description_view_tree_translation">ビューコンテンツのオプトイン自動翻訳のデモンストレーション。</string>
+    <string name="tagged_for_translation">このテキストはal_translateで自動翻訳のためにタグ付けされています。</string>
+    <string name="excluded_from_translation">このテキストはal_no_translateで翻訳から除外されています。</string>
+    
+    <string name="title_model_status">翻訳モデルのステータス</string>
+    <string name="label_download_status">ステータス:</string>
+    <string name="status_ready">準備完了</string>
+    <string name="status_downloading">モデルをダウンロード中…</string>
+    <string name="status_not_ready">モデルがダウンロードされていません</string>
+    <string name="status_error">エラー: %s</string>
+    <string name="button_download_models">モデルをダウンロード</string>
+    
+    <!-- Language picker -->
+    <string name="hint_select_language">言語を選択</string>
+</resources>
+

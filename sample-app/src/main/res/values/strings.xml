@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoLocalize Sample</string>
+    
+    <!-- Main screen strings -->
+    <string name="title_resource_localization">📚 Resource Localization (strings.xml)</string>
+    <string name="description_resource_localization">These strings come from strings.xml and are automatically localized by Android\'s resource system. Watch them change when you select a different language!</string>
+    <string name="greeting">Hello! Welcome to AutoLocalize.</string>
+    <string name="message_change_language">Change the language using the dropdown above to see these strings update instantly.</string>
+    
+    <!-- Test strings with placeholders -->
+    <string name="test_placeholder_simple">You have %d new messages</string>
+    <string name="test_placeholder_string">Welcome back, %s!</string>
+    <string name="test_placeholder_positional">%1$s ordered %2$d items for %3$s</string>
+    <string name="test_current_locale">Current locale: %s</string>
+    
+    <string name="title_runtime_translation">Runtime Translation</string>
+    <string name="description_runtime_translation">These strings are translated at runtime using ML Kit (on-device) or cloud APIs.</string>
+    <string name="label_backend_text">Backend Text:</string>
+    <string name="backend_sample_text">This text simulates content from a backend API that needs translation.</string>
+    <string name="label_user_input">Your Text:</string>
+    <string name="hint_enter_text">Enter text to translate…</string>
+    <string name="button_translate">Translate</string>
+    <string name="label_translated_text">Translated:</string>
+    
+    <string name="title_view_tree_translation">View Tree Translation</string>
+    <string name="description_view_tree_translation">Demonstrate opt-in automatic translation of view content.</string>
+    <string name="tagged_for_translation">This text is tagged for automatic translation with al_translate.</string>
+    <string name="excluded_from_translation">This text is excluded from translation with al_no_translate.</string>
+    
+    <string name="title_model_status">Translation Model Status</string>
+    <string name="label_download_status">Status:</string>
+    <string name="status_ready">Ready</string>
+    <string name="status_downloading">Downloading models…</string>
+    <string name="status_not_ready">Models not downloaded</string>
+    <string name="status_error">Error: %s</string>
+    <string name="button_download_models">Download Models</string>
+    
+    <!-- Language picker -->
+    <string name="hint_select_language">Select Language</string>
+    
+    <!-- Navigation menu -->
+    <string name="nav_overview">Overview</string>
+    <string name="nav_messaging">Messaging App</string>
+    <string name="nav_food_delivery">Food Delivery</string>
+    <string name="nav_news">News Feed</string>
+    <string name="nav_ecommerce">E-Commerce</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Messaging app -->
+    <string name="messaging_title">Messaging App Demo</string>
+    <string name="messaging_description">Real-time message translation in a chat interface. Messages are automatically translated when you change the language.</string>
+    <string name="messaging_hint">Type a message…</string>
+    <string name="messaging_send">Send</string>
+    
+    <!-- Food delivery -->
+    <string name="food_title">Food Delivery Demo</string>
+    <string name="food_description">Restaurant menu items with descriptions translated from backend. Shows RecyclerView with translated content.</string>
+    <string name="food_price">$%.2f</string>
+    <string name="food_add_to_cart">Add to Cart</string>
+    <string name="food_rating">Rating: %.1f</string>
+    
+    <!-- News -->
+    <string name="news_title">News Feed Demo</string>
+    <string name="news_description">News articles with titles and content translated from backend API.</string>
+    <string name="news_read_more">Read More</string>
+    <string name="news_published">Published: %s</string>
+    
+    <!-- E-commerce -->
+    <string name="ecommerce_title">E-Commerce Demo</string>
+    <string name="ecommerce_description">Product listings with names, descriptions, and reviews translated from backend.</string>
+    <string name="ecommerce_buy_now">Buy Now</string>
+    <string name="ecommerce_reviews">%d reviews</string>
+    
+    <!-- Language arrays -->
+    <string-array name="supported_language_tags">
+        <item>en</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>el</item>
+        <item>ja</item>
+        <item>zh</item>
+    </string-array>
+    
+    <string-array name="supported_language_labels">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Japanese</item>
+        <item>Chinese</item>
+    </string-array>
+</resources>
+

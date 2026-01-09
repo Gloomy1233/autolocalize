@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ejemplo AutoLocalize</string>
+    
+    <!-- Main screen strings -->
+    <string name="title_resource_localization">📚 Localización de Recursos (strings.xml)</string>
+    <string name="description_resource_localization">Estas cadenas provienen de strings.xml y son localizadas automáticamente por el sistema de recursos de Android. ¡Míralas cambiar cuando selecciones un idioma diferente!</string>
+    <string name="greeting">¡Hola! Bienvenido a AutoLocalize.</string>
+    <string name="message_change_language">Cambia el idioma usando el menú desplegable de arriba para ver cómo se actualizan estas cadenas al instante.</string>
+    
+    <!-- Test strings with placeholders -->
+    <string name="test_placeholder_simple">Tienes %d mensajes nuevos</string>
+    <string name="test_placeholder_string">¡Bienvenido de nuevo, %s!</string>
+    <string name="test_placeholder_positional">%1$s pidió %2$d artículos por %3$s</string>
+    <string name="test_current_locale">Idioma actual: %s</string>
+    
+    <string name="title_runtime_translation">Traducción en Tiempo Real</string>
+    <string name="description_runtime_translation">Estas cadenas se traducen en tiempo de ejecución usando ML Kit (en el dispositivo) o APIs en la nube.</string>
+    <string name="label_backend_text">Texto del Backend:</string>
+    <string name="backend_sample_text">Este texto simula contenido de una API de backend que necesita traducción.</string>
+    <string name="label_user_input">Tu Texto:</string>
+    <string name="hint_enter_text">Escribe texto para traducir…</string>
+    <string name="button_translate">Traducir</string>
+    <string name="label_translated_text">Traducido:</string>
+    
+    <string name="title_view_tree_translation">Traducción del Árbol de Vistas</string>
+    <string name="description_view_tree_translation">Demostración de la traducción automática opcional del contenido de las vistas.</string>
+    <string name="tagged_for_translation">Este texto está etiquetado para traducción automática con al_translate.</string>
+    <string name="excluded_from_translation">Este texto está excluido de la traducción con al_no_translate.</string>
+    
+    <string name="title_model_status">Estado del Modelo de Traducción</string>
+    <string name="label_download_status">Estado:</string>
+    <string name="status_ready">Listo</string>
+    <string name="status_downloading">Descargando modelos…</string>
+    <string name="status_not_ready">Modelos no descargados</string>
+    <string name="status_error">Error: %s</string>
+    <string name="button_download_models">Descargar Modelos</string>
+    
+    <!-- Language picker -->
+    <string name="hint_select_language">Seleccionar Idioma</string>
+    
+    <!-- Navigation menu -->
+    <string name="nav_overview">Resumen</string>
+    <string name="nav_messaging">Aplicación de Mensajería</string>
+    <string name="nav_food_delivery">Entrega de Comida</string>
+    <string name="nav_news">Noticias</string>
+    <string name="nav_ecommerce">Comercio Electrónico</string>
+    <string name="nav_settings">Configuración</string>
+    
+    <!-- Messaging app -->
+    <string name="messaging_title">Demo de Aplicación de Mensajería</string>
+    <string name="messaging_description">Traducción de mensajes en tiempo real en una interfaz de chat. Los mensajes se traducen automáticamente cuando cambias el idioma.</string>
+    <string name="messaging_hint">Escribe un mensaje…</string>
+    <string name="messaging_send">Enviar</string>
+    
+    <!-- Food delivery -->
+    <string name="food_title">Demo de Entrega de Comida</string>
+    <string name="food_description">Elementos del menú del restaurante con descripciones traducidas desde el backend. Muestra RecyclerView con contenido traducido.</string>
+    <string name="food_price">$%.2f</string>
+    <string name="food_add_to_cart">Añadir al Carrito</string>
+    <string name="food_rating">Calificación: %.1f</string>
+    
+    <!-- News -->
+    <string name="news_title">Demo de Feed de Noticias</string>
+    <string name="news_description">Artículos de noticias con títulos y contenido traducidos desde la API del backend.</string>
+    <string name="news_read_more">Leer Más</string>
+    <string name="news_published">Publicado: %s</string>
+    
+    <!-- E-commerce -->
+    <string name="ecommerce_title">Demo de Comercio Electrónico</string>
+    <string name="ecommerce_description">Listados de productos con nombres, descripciones y reseñas traducidas desde el backend.</string>
+    <string name="ecommerce_buy_now">Comprar Ahora</string>
+    <string name="ecommerce_reviews">%d reseñas</string>
+</resources>
+

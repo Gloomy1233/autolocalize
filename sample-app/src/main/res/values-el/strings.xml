@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Παράδειγμα AutoLocalize</string>
+    
+    <!-- Main screen strings -->
+    <string name="title_resource_localization">📚 Τοπική Προσαρμογή Πόρων (strings.xml)</string>
+    <string name="description_resource_localization">Αυτές οι συμβολοσειρές προέρχονται από το strings.xml και τοπικοποιούνται αυτόματα από το σύστημα πόρων του Android. Δείτε τις να αλλάζουν όταν επιλέγετε μια διαφορετική γλώσσα!</string>
+    <string name="greeting">Γεια σας! Καλώς ήρθατε στο AutoLocalize.</string>
+    <string name="message_change_language">Αλλάξτε τη γλώσσα χρησιμοποιώντας το αναπτυσσόμενο μενού παραπάνω για να δείτε αυτές τις συμβολοσειρές να ενημερώνονται αμέσως.</string>
+    
+    <!-- Test strings with placeholders -->
+    <string name="test_placeholder_simple">Έχετε %d νέα μηνύματα</string>
+    <string name="test_placeholder_string">Καλώς ήρθατε πίσω, %s!</string>
+    <string name="test_placeholder_positional">Ο/Η %1$s παρήγγειλε %2$d αντικείμενα για %3$s</string>
+    <string name="test_current_locale">Τρέχουσα γλώσσα: %s</string>
+    
+    <string name="title_runtime_translation">Μετάφραση σε Χρόνο Εκτέλεσης</string>
+    <string name="description_runtime_translation">Αυτές οι συμβολοσειρές μεταφράζονται κατά την εκτέλεση χρησιμοποιώντας ML Kit (στη συσκευή) ή API cloud.</string>
+    <string name="label_backend_text">Κείμενο Backend:</string>
+    <string name="backend_sample_text">Αυτό το κείμενο προσομοιώνει περιεχόμενο από ένα backend API που χρειάζεται μετάφραση.</string>
+    <string name="label_user_input">Το Κείμενό σας:</string>
+    <string name="hint_enter_text">Εισαγάγετε κείμενο για μετάφραση…</string>
+    <string name="button_translate">Μετάφραση</string>
+    <string name="label_translated_text">Μεταφρασμένο:</string>
+    
+    <string name="title_view_tree_translation">Μετάφραση Δέντρου Προβολής</string>
+    <string name="description_view_tree_translation">Επίδειξη της προαιρετικής αυτόματης μετάφρασης περιεχομένου προβολής.</string>
+    <string name="tagged_for_translation">Αυτό το κείμενο έχει επισημανθεί για αυτόματη μετάφραση με al_translate.</string>
+    <string name="excluded_from_translation">Αυτό το κείμενο εξαιρείται από τη μετάφραση με al_no_translate.</string>
+    
+    <string name="title_model_status">Κατάσταση Μοντέλου Μετάφρασης</string>
+    <string name="label_download_status">Κατάσταση:</string>
+    <string name="status_ready">Έτοιμο</string>
+    <string name="status_downloading">Λήψη μοντέλων…</string>
+    <string name="status_not_ready">Τα μοντέλα δεν έχουν ληφθεί</string>
+    <string name="status_error">Σφάλμα: %s</string>
+    <string name="button_download_models">Λήψη Μοντέλων</string>
+    
+    <!-- Language picker -->
+    <string name="hint_select_language">Επιλογή Γλώσσας</string>
+</resources>
+
